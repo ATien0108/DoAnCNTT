@@ -35,7 +35,7 @@ CREATE TABLE `names` (
 
 LOCK TABLES `names` WRITE;
 /*!40000 ALTER TABLE `names` DISABLE KEYS */;
-INSERT INTO `names` VALUES (1,'TU'),(2,'DUY'),(3,'TIEN'),(4,'PHAT'),(5,'MINH'),(6,'TRUNG'),(7,'THANH'),(8,'VAN');
+INSERT INTO `names` VALUES (1,'TU'),(2,'DUY'),(3,'TIEN'),(4,'PHAT'),(5,'MINH'),(6,'TRUNG'),(7,'THANH'),(8,'VAN'), (9,'HOA');
 /*!40000 ALTER TABLE `names` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -59,7 +59,7 @@ CREATE TABLE `scores` (
 
 LOCK TABLES `scores` WRITE;
 /*!40000 ALTER TABLE `scores` DISABLE KEYS */;
-INSERT INTO `scores` VALUES (1,35),(2,12),(3,57),(4,23),(5,578),(6,0),(7,0),(8,56);
+INSERT INTO `scores` VALUES (1,35),(2,12),(3,57),(4,23),(5,578),(6,0),(7,0),(8,56), (9, 90);
 /*!40000 ALTER TABLE `scores` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
